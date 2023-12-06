@@ -16,22 +16,12 @@ The main program is organized into four branches: **Total Books**, **Issued Book
  -Function to check how many books are not there from total books.
  
 -**Exit**
- -Function to return to main menu
+ -Function to return to main menu.
  
 ## Issued Books
-1.TOTAL BOOKS
-   (I) BOOKS AVAILABLE
-   (II) BOOKS UNAVAILABLE 
-2. ISSUED BOOKS
-   (I) DATE AND TIME OF ISSUE AND FOR HOW MANY DAYS                                3. BOOK RETURN
-   (I)BOOKS RETURNED ON TIME
-       (A)THEN ADD THE RETURN BOOK TO TOTAL BOOKS
-       (B)THEN CHECK TOTAL BOOKS IN STOCK
-   (II)BOOKS RETURNED DELAYED
-       (A)HOW MANY DAYS DELAYED
-       (B)FINE CHARGED ACCORDING TO THE DAYS DELAYED
-       (C)THEN ADD THE RETURNED BOOKS TO TOTAL BOOKS
-       (D)CHECK TOTAL BOOKS IN STOCK
-4.AFTER CHECKING 
-     (I)ATLAST CHECK TOTAL BOOKS AVAILABLE
-     (II)TOTAL BOOKS UNAVAILABLE
+-**Book issue**
+   - Function to check on which date and time did the book has been issued.
+-**Book Left**
+   - Function to check how many books left in stock after the issue of the book.
+-**Exit**
+ -Function to return to main menu.
